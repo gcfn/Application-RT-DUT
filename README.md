@@ -1,6 +1,7 @@
 # Application-RT
 
-### Prérequis ###
+Prérequis
+=
 - Disposer d'une VM Linux Debian
 - Créer un compte "etudiant" avec le mot de passe "vitrygtr"
 - Télécharger les paquets suivants :
@@ -11,7 +12,8 @@
   - tcpdump
   - zip
   
-# Sécuriser le serveur mysql # 
+Sécuriser le serveur mysql
+=
 Lancer la commande suivante :\n
 mysq_secure_installation
 mot de passe : vitrygtr
@@ -21,8 +23,9 @@ Disallow root login remotely : n
 Remove test database and access to it : Y
 Reload privilege tables now : Y
 
-# Créer la base de données et les tables #
-en recopiant les commandes suivantes :
+Créer la base de données et les tables
+=
+Recopier les commandes suivantes :<br/>
 mysql -u root -p
 [mdp] = vitrygtr
 
@@ -48,12 +51,11 @@ gateway varchar(20)
 
 INSERT INTO network(id) VALUES('192.168.1.25');
 
-
-1/ Télécharger le dossier "Site Web" et le copier à la racine du système Linux
-2/ Deziper le dossier à la racine /
-3/ Renommer le fichier /var/www/guillaume.fr/htaccess en .htaccess
-4/ Renommer le fichier /etc/home/etudiant/htpasswd$ en .htpasswd$
-5/ Connectez-vous au site web à l'adresse suivante : https://www.guillaume.fr
-6/ Identifiez-vous avec :
-login : guillaume
-mdp : vitrygtr
+<ol>
+  <li>Télécharger le dossier "Site Web" et le copier à la racine du système Linux</li>
+  <li>Deziper le dossier à la racine /</li>
+  <li>Renommer le fichier /var/www/guillaume.fr/htaccess en .htaccess</li>
+  <li>Renommer le fichier /etc/home/etudiant/htpasswd$ en .htpasswd$</li>
+  <li>Connectez-vous au site web à l'adresse suivante : https://www.guillaume.fr</li>
+  <li>Identifiez-vous avec :<br/>login : guillaume<br/>mdp : vitrygtr</li>
+</ol>
