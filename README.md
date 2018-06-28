@@ -58,6 +58,7 @@ Installation du site web
   <li>Deziper le dossier à la racine /</li>
   <li>Renommer le fichier /var/www/guillaume.fr/htaccess en .htaccess</li>
   <li>Renommer le fichier /etc/home/etudiant/htpasswd$ en .htpasswd$</li>
+  <li>Lancer la commande suivante : <code>chmod 711 /home/etudiant/script.sh</code></li>
   <li>Connectez-vous au site web à l'adresse suivante : https://www.guillaume.fr</li>
   <li>Identifiez-vous avec :<br/>
   login :<br/>
