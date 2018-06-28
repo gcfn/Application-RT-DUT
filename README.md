@@ -12,7 +12,7 @@
   - zip
   
 # Sécuriser le serveur mysql # 
-Lancer la commande suivante :
+Lancer la commande suivante :\n
 mysq_secure_installation
 mot de passe : vitrygtr
 Change the root password : n
