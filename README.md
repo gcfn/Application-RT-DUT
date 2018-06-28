@@ -26,30 +26,30 @@ Reload privilege tables now : Y
 Créer la base de données et les tables
 =
 Recopier les commandes suivantes :<br/>
-mysql -u root -p
-[mdp] = vitrygtr
+<code>mysql -u root -p</code><br/>
+[mdp] = vitrygtr<br/>
 
-CREATE DATABASE administration;
-USE administration
+CREATE DATABASE administration;<br/>
+USE administration<br/>
 
-CREATE TABLE applications(
-id varchar(20),
-application varchar(20)
-);
+CREATE TABLE applications(<br/>
+id varchar(20),<br/>
+application varchar(20)<br/>
+);<br/>
 
-INSERT INTO applications VALUES('192.168.1.25', 'apache2');
-INSERT INTO applications VALUES('192.168.1.25', 'php5');
-INSERT INTO applications VALUES('192.168.1.25', 'mysql');
+INSERT INTO applications VALUES('192.168.1.25', 'apache2');<br/>
+INSERT INTO applications VALUES('192.168.1.25', 'php5');<br/>
+INSERT INTO applications VALUES('192.168.1.25', 'mysql');<br/>
 
-CREATE TABLE network(
-id varchar(20),
-carte varchar(20),
-ip varchar(20),
-netmask varchar(20),
-gateway varchar(20)
-);
+CREATE TABLE network(<br/>
+id varchar(20),<br/>
+carte varchar(20),<br/>
+ip varchar(20),<br/>
+netmask varchar(20),<br/>
+gateway varchar(20)<br/>
+);<br/>
 
-INSERT INTO network(id) VALUES('192.168.1.25');
+INSERT INTO network(id) VALUES('192.168.1.25');<br/><br/>
 
 <ol>
   <li>Télécharger le dossier "Site Web" et le copier à la racine du système Linux</li>
