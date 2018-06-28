@@ -15,7 +15,7 @@ Prérequis
 Sécuriser le serveur mysql
 -
 Lancer la commande suivante :<br/>
-mysq_secure_installation<br/>
+<code>mysq_secure_installation</code><br/>
 mot de passe : vitrygtr<br/>
 Change the root password : n<br/>
 Remove anonymous users : Y<br/>
@@ -51,7 +51,7 @@ gateway varchar(20)<br/>
 
 INSERT INTO network(id) VALUES('192.168.1.25');<br/><br/>
 
-Installation du serveur
+Installation du site web
 =
 <ol>
   <li>Télécharger le dossier "Site Web" et le copier à la racine du système Linux</li>
