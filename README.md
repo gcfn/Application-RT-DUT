@@ -60,7 +60,7 @@ Installation du site web
   <li>Renommer le fichier /etc/home/etudiant/htpasswd$ en .htpasswd$</li>
   <li>Connectez-vous au site web à l'adresse suivante : https://www.guillaume.fr</li>
   <li>Identifiez-vous avec :<br/>
-  login :
+  login :<br/>
     - guillaume<br/>
     - mdp : vitrygtr</li>
 </ol>
