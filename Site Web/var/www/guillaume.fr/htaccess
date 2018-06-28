@@ -1,0 +1,5 @@
+AuthUserFile /home/etudiant/.htpasswd$
+AuthName "Acces protege"
+AuthType Basic
+Require valid-user
+

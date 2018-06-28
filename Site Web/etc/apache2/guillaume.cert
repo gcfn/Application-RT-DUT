@@ -1,0 +1,80 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 0 (0x0)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=FR, L=Creteil, O=Guillaume CA, CN=GuiCA
+        Validity
+            Not Before: Jun 28 09:47:20 2018 GMT
+            Not After : Jun 28 09:47:20 2019 GMT
+        Subject: C=FR, CN=www.guillaume.fr
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ad:6f:29:9d:81:2b:b9:98:99:57:ce:7a:3c:d0:
+                    5f:68:d3:85:c0:b2:f0:79:0e:1f:1a:b5:29:0c:ab:
+                    e8:4d:a4:4f:45:6c:6b:f5:f5:f2:58:e3:a5:00:63:
+                    a3:86:fb:54:e2:ac:40:18:ba:01:7e:7e:cd:6a:bf:
+                    9c:ca:77:a5:34:74:9b:7d:88:1e:84:36:05:2e:68:
+                    e9:ae:05:7a:ea:eb:b9:cf:b4:39:a8:94:8b:63:20:
+                    e2:6d:dc:88:63:db:58:e4:00:c6:77:ca:d3:9d:a0:
+                    f8:8e:f9:1c:05:06:22:e6:e2:12:9b:91:13:20:4b:
+                    4b:39:f9:46:92:0b:c7:ad:79:74:88:39:9b:49:ac:
+                    80:ac:db:6c:5e:ac:af:f6:1b:92:b2:74:78:0c:78:
+                    04:f2:ae:2f:79:bf:0b:4e:af:cc:64:35:cf:fb:0c:
+                    3f:cf:61:20:89:ec:3e:0e:8c:d6:07:89:7a:b8:21:
+                    90:24:ec:df:86:65:38:aa:01:ec:6f:db:97:71:d4:
+                    e4:00:51:a6:ec:86:f9:f1:88:bb:90:06:ad:cf:89:
+                    e1:16:77:be:40:64:e3:94:28:f0:c9:0c:fd:83:cb:
+                    62:4d:57:db:aa:e7:d1:d6:0f:75:93:67:0e:e8:21:
+                    62:f9:98:2e:b2:d5:7d:30:17:3b:b4:24:fd:e0:36:
+                    fb:db
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                OpenSSL Generated Certificate
+            X509v3 Subject Key Identifier: 
+                8E:57:AF:88:92:B0:98:BB:D2:F5:C6:C1:83:9B:CC:BE:50:2A:7E:96
+            X509v3 Authority Key Identifier: 
+                keyid:0D:CB:E7:74:DB:A7:C9:E0:21:11:05:C0:D9:22:A3:38:EA:F1:4D:69
+
+    Signature Algorithm: sha256WithRSAEncryption
+         a9:40:0f:b8:0e:b2:28:6f:84:a2:22:99:01:00:b5:fa:4b:43:
+         07:84:de:e9:52:05:2f:3e:2d:bf:9d:14:6e:12:e8:bc:6a:71:
+         ad:07:53:28:0a:6c:a6:45:f1:65:b3:aa:cd:d0:fc:5a:fe:b3:
+         0b:5e:06:23:cd:18:ff:c4:70:ec:26:c1:6a:48:38:90:39:7c:
+         dd:3f:c5:53:af:bc:86:4c:f0:c4:e6:a7:dc:23:39:58:47:ff:
+         cc:64:6d:a0:89:e2:c1:8b:9a:d6:52:6f:da:90:65:19:27:df:
+         8b:ef:4e:86:2a:f3:fa:9d:b8:5e:9c:94:f8:34:8c:ce:68:31:
+         be:77:cf:2e:65:29:e7:27:64:65:6b:ab:13:bf:58:7d:24:a7:
+         70:a5:bc:51:f6:fe:e2:0e:40:fa:29:1c:93:4e:1f:b8:0a:17:
+         b1:55:a4:93:20:b8:09:85:af:6a:0e:90:67:0e:2c:b6:c7:ae:
+         d7:26:2d:af:36:36:1b:a0:f0:d4:64:26:cd:90:2a:63:c5:7e:
+         89:6f:a8:92:d8:23:a2:2c:dd:c1:01:f5:2e:e4:7f:35:af:14:
+         3c:9b:44:5b:52:cc:cf:e0:27:bd:d7:9b:c7:34:ab:56:61:90:
+         c6:54:71:07:6f:87:c1:39:f5:bc:e7:00:13:07:1d:ac:cc:69:
+         36:00:25:10
+-----BEGIN CERTIFICATE-----
+MIIDZDCCAkygAwIBAgIBADANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJGUjEQ
+MA4GA1UEBwwHQ3JldGVpbDEVMBMGA1UECgwMR3VpbGxhdW1lIENBMQ4wDAYDVQQD
+DAVHdWlDQTAeFw0xODA2MjgwOTQ3MjBaFw0xOTA2MjgwOTQ3MjBaMCgxCzAJBgNV
+BAYTAkZSMRkwFwYDVQQDDBB3d3cuZ3VpbGxhdW1lLmZyMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEArW8pnYEruZiZV856PNBfaNOFwLLweQ4fGrUpDKvo
+TaRPRWxr9fXyWOOlAGOjhvtU4qxAGLoBfn7Nar+cynelNHSbfYgehDYFLmjprgV6
+6uu5z7Q5qJSLYyDibdyIY9tY5ADGd8rTnaD4jvkcBQYi5uISm5ETIEtLOflGkgvH
+rXl0iDmbSayArNtsXqyv9huSsnR4DHgE8q4veb8LTq/MZDXP+ww/z2Egiew+DozW
+B4l6uCGQJOzfhmU4qgHsb9uXcdTkAFGm7Ib58Yi7kAatz4nhFne+QGTjlCjwyQz9
+g8tiTVfbqufR1g91k2cO6CFi+ZgustV9MBc7tCT94Db72wIDAQABo3sweTAJBgNV
+HRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZp
+Y2F0ZTAdBgNVHQ4EFgQUjleviJKwmLvS9cbBg5vMvlAqfpYwHwYDVR0jBBgwFoAU
+DcvndNunyeAhEQXA2SKjOOrxTWkwDQYJKoZIhvcNAQELBQADggEBAKlAD7gOsihv
+hKIimQEAtfpLQweE3ulSBS8+Lb+dFG4S6Lxqca0HUygKbKZF8WWzqs3Q/Fr+swte
+BiPNGP/EcOwmwWpIOJA5fN0/xVOvvIZM8MTmp9wjOVhH/8xkbaCJ4sGLmtZSb9qQ
+ZRkn34vvToYq8/qduF6clPg0jM5oMb53zy5lKecnZGVrqxO/WH0kp3ClvFH2/uIO
+QPopHJNOH7gKF7FVpJMguAmFr2oOkGcOLLbHrtcmLa82Nhug8NRkJs2QKmPFfolv
+qJLYI6Is3cEB9S7kfzWvFDybRFtSzM/gJ73Xm8c0q1ZhkMZUcQdvh8E59bznABMH
+HazMaTYAJRA=
+-----END CERTIFICATE-----

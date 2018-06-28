@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    color: navy;
+}
+
+.selection{
+}
+
+td{
+	border: 1px solid black;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.modif_carte{
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+}
+
+#iframe{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.titre_index{
+	color: blue;
+}

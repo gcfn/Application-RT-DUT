@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Commandes</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+	<h1>Commandes</h1>
+
+	<h2>Que voulez-vous faire ?</h2>
+	
+	<div class="left">
+	<p><div class="titre_index">Lister les processus du système</div>
+	<form method="post" action="ps.php" target="iframe">
+	    <input type="submit" name="ps" value="Processus">
+	</form><br/></p>
+
+	<P><div class="titre_index">Modifier la configuration IP</div>
+	<form method="post" action="network.php" target="iframe">
+	    <input type="submit" name="network" value="network">
+	</form><br/></p>
+
+
+	<p><div class="titre_index">Lister les ports ouverts</div>
+	<form method="post" action="ports.php" target="iframe">
+	    <input type="submit" name="ports" value="ports ouverts">
+	</form><br/></p>
+
+	<p><div class="titre_index">Lancer un tcpdump</div>
+	<form method="post" action="tcpdump.php" target="iframe">
+		Nom de la carte réseau <input type="text" name="carte"><br/><br/>
+		Nombre de captures <input type="text" name="nb_captures"><br/><br/>
+	    <input type="submit" name="tcpdump" value="tcp dump">
+	</form><br/></p>
+
+
+
+	</div>
+
+	<div id="iframe">
+		<iframe name="iframe" src="iframe.html" height="500" width="450"> </iframe>
+	</div>
+
+
+
+
+
+    	
+	
+
+
+    </body>
+</html>
