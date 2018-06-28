@@ -59,5 +59,8 @@ Installation du site web
   <li>Renommer le fichier /var/www/guillaume.fr/htaccess en .htaccess</li>
   <li>Renommer le fichier /etc/home/etudiant/htpasswd$ en .htpasswd$</li>
   <li>Connectez-vous au site web à l'adresse suivante : https://www.guillaume.fr</li>
-  <li>Identifiez-vous avec :<br/>login : guillaume<br/>mdp : vitrygtr</li>
+  <li>Identifiez-vous avec :<br/>
+  login :
+    - guillaume<br/>
+    - mdp : vitrygtr</li>
 </ol>
