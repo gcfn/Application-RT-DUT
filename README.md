@@ -13,18 +13,18 @@ Prérequis
   - zip
   
 Sécuriser le serveur mysql
-=
-Lancer la commande suivante :\n
-mysq_secure_installation
-mot de passe : vitrygtr
-Change the root password : n
-Remove anonymous users : Y
-Disallow root login remotely : n
-Remove test database and access to it : Y
-Reload privilege tables now : Y
+-
+Lancer la commande suivante :<br/>
+mysq_secure_installation<br/>
+mot de passe : vitrygtr<br/>
+Change the root password : n<br/>
+Remove anonymous users : Y<br/>
+Disallow root login remotely : n<br/>
+Remove test database and access to it : Y<br/>
+Reload privilege tables now : Y<br/>
 
 Créer la base de données et les tables
-=
+-
 Recopier les commandes suivantes :<br/>
 <code>mysql -u root -p</code><br/>
 [mdp] = vitrygtr<br/>
@@ -51,6 +51,8 @@ gateway varchar(20)<br/>
 
 INSERT INTO network(id) VALUES('192.168.1.25');<br/><br/>
 
+Installation du serveur
+=
 <ol>
   <li>Télécharger le dossier "Site Web" et le copier à la racine du système Linux</li>
   <li>Deziper le dossier à la racine /</li>
